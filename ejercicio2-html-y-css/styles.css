@@ -8,6 +8,18 @@ box-shadow: 4px 6px 20px 1px #9b9a9a;
 background-image: linear-gradient(rgba(118, 188, 206, 0.5),rgb(95, 88, 192));
 position: relative
 }
+@media (min-width: 500px) {
+.form {
+    width: 500px;
+}
+}
+
+@media (min-width: 1080px) {
+    .form {
+        width: 300px;
+    }
+    }
+
 
 #name {
 
